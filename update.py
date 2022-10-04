@@ -26,7 +26,7 @@ if len(CONFIG_FILE_URL) != 0:
 
 load_dotenv('config.env', override=True)
 
-UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
+UPSTREAM_REPO = environ.get('UPSTREAM_REPO', 'https://github.com/anasty17/mirror-leech-telegram-bot')
 if len(UPSTREAM_REPO) == 0:
    UPSTREAM_REPO = None
 
